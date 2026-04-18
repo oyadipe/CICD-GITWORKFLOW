@@ -16,5 +16,5 @@ resource "google_storage_bucket" "my_bucket" {
   name                     = "19031982-my_bucket"
   location                 = "us-central1"
   force_destroy            = true
-  public_access_prevention = "false"
+  
 }
